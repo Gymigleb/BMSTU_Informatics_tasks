@@ -15,7 +15,7 @@ point* alloc_points(size_t *n) {
 	}
 
 	point *p = (point*)calloc(*(n), sizeof(point));
-	if (p = NULL) {
+	if (p == NULL) {
 		exit(2);
 	}
 	return p;
